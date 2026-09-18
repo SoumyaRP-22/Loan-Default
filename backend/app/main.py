@@ -26,7 +26,7 @@ threshold = joblib.load(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://loan-default-cbia.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
